@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "566465805830",
+    "project_id": "ijosh-86020",
+    "storage_bucket": "ijosh-86020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566465805830:android:dcdcbfe2b1e4c29c91cd87",
+        "android_client_info": {
+          "package_name": "com.leopard.ijosh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566465805830-1l2sjiu2ev4docrs7ekdl908439jslj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leopard.ijosh",
+            "certificate_hash": "e315112b1444e7a4364ce5d1b1a7752d5b999222"
+          }
+        },
+        {
+          "client_id": "566465805830-n9plevv4tr3i4nfjd9edf3pidtfgbl3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leopard.ijosh",
+            "certificate_hash": "578229a148c05fc367b37db3c096d6408249ae58"
+          }
+        },
+        {
+          "client_id": "566465805830-7u8lr8imptkq36q24ncvmlg638i3o2cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqBwb-26JHJkr5hPg4XWk1JNCv6zwXeUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566465805830-7u8lr8imptkq36q24ncvmlg638i3o2cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

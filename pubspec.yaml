@@ -1,0 +1,181 @@
+name: eram_app
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.11+12
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  geolocator: ^6.1.13
+  geocoder: ^0.2.1
+  google_fonts: ^1.1.1
+  dots_indicator: ^1.2.0
+  carousel_pro: ^1.0.0
+  carousel_slider: ^2.3.1
+  flutter_rating_bar: ^3.0.1+1
+  http: ^0.12.2
+  shared_preferences: ^0.5.12
+  fluttertoast: ^7.1.1
+  otp_text_field: ^1.0.1
+  multiselect_formfield: ^0.1.4
+  image_picker: ^0.6.6+5
+  worm_indicator: ^0.2.4
+  flutter_otp_text_field: ^0.0.1+1
+  pin_code_fields: ^6.0.2
+  flutter_money_formatter: ^0.8.3
+  google_maps_flutter: ^1.0.6
+  file_picker: ^2.1.5+1
+  charts_flutter: ^0.9.0
+  #chart_engine: ^1.1.10
+  fl_chart: ^0.12.2
+  flutter_colorpicker: ^0.3.5
+  flutter_material_color_picker: ^1.0.5
+  flutter_circle_color_picker: ^0.2.0
+  timeago: ^2.0.29
+  loop_page_view: ^1.0.11
+  pdf_flutter: ^1.1.4
+  pull_to_refresh: 1.6.3
+  timelines: ^0.0.2+1
+  firebase_messaging: ^5.0.2
+  open_file: ^3.0.3
+  permission_handler: ^5.1.0+2
+  searchable_dropdown: ^1.1.3
+  shimmer: ^1.1.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/ijoshlogoo.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/userlogo.jpg
+  - assets/orderconfirm.png
+  - assets/logo.jpg
+  - assets/eram.png
+  - assets/marker.png
+  - assets/kalyansilks.png
+  - assets/seematti.png
+  - assets/lamiya.png
+  - assets/image4.png
+  - assets/meridian.png
+  - assets/paracon.png
+  - assets/mcdonalds.png
+  - assets/monitor.png
+  - assets/fashion.png
+  - assets/fork.png
+  - assets/slumber.png
+  - assets/discount.png
+  - assets/slider1.jpg
+  - assets/oxygen.png
+  - assets/googlemaps.png
+  - assets/phone.jpeg
+  - assets/monitor.png
+  - assets/laptop.png
+  - assets/Smartphone.png
+  - assets/tablet.png
+  - assets/view.png
+  - assets/cart.png
+  - assets/laptop.jpg
+  - assets/washer.png
+  - assets/air.png
+  - assets/fridge.png
+  - assets/stove.png
+  - assets/mac.jpg
+  - assets/earpod.jpg
+  - assets/ifb.jpg
+  - assets/tv.jpg
+  - assets/heart.png
+  - assets/user.jpg
+  - assets/hand.png
+  - assets/orderhistory.png
+  - assets/creditcard.png
+  - assets/Verify.png
+  - assets/RegSucess.png
+  - assets/materialinfo.png
+  - assets/VerifySucess.png
+  - assets/verifyPend.png
+  - assets/c.png
+  - assets/upload.png
+  - assets/store.png
+  - assets/basket1.png
+  - assets/basket2.png
+  - assets/add.png
+  - assets/monitor1.png
+  - assets/lapseller.png
+  - assets/cart1.png
+  - assets/cart2.png
+  - assets/emptywishlist.jpg
+  - assets/emptycart.png
+  - assets/shoppingcart.png
+  - assets/Slider 1.png
+  - assets/Slider 2.png
+  - assets/Slider 3.png
+  - assets/Mobile.png
+  - assets/meredian.png
+  - assets/kalyan.png
+  - assets/home4.png
+  - assets/star.png
+  - assets/ijosh.png
+  - assets/ijoshlogoo.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
